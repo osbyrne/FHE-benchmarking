@@ -1,0 +1,101 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "docker@27.1.1": {
+      "last_modified": "2024-09-12T11:58:09Z",
+      "resolved": "github:NixOS/nixpkgs/280db3decab4cbeb22a4599bd472229ab74d25e1#docker",
+      "source": "devbox-search",
+      "version": "27.1.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/y46mg0gkzz9mb5r5rnga6f83iwwi0bwv-docker-27.1.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/y46mg0gkzz9mb5r5rnga6f83iwwi0bwv-docker-27.1.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/4k50mdzjagn7biwahc22wskr7dgmfbqp-docker-27.1.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/4k50mdzjagn7biwahc22wskr7dgmfbqp-docker-27.1.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3y1mk7dwp46r0r0r4gk0qmsk9jas1r3k-docker-27.1.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3y1mk7dwp46r0r0r4gk0qmsk9jas1r3k-docker-27.1.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/bs3yqm8xprnz8p5b3cw7rhxhpcrinspc-docker-27.1.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/bs3yqm8xprnz8p5b3cw7rhxhpcrinspc-docker-27.1.1"
+        }
+      }
+    },
+    "vcpkg@latest": {
+      "last_modified": "2024-09-12T11:58:09Z",
+      "resolved": "github:NixOS/nixpkgs/280db3decab4cbeb22a4599bd472229ab74d25e1#vcpkg",
+      "source": "devbox-search",
+      "version": "2024.08.23",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/bg6qbarxxx3py6m6gi0vnl8jg840pncf-vcpkg-2024.08.23",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/bg6qbarxxx3py6m6gi0vnl8jg840pncf-vcpkg-2024.08.23"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/h6pnkak7jrkhjyvmr4mw9yyh0ay3p3b1-vcpkg-2024.08.23",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/h6pnkak7jrkhjyvmr4mw9yyh0ay3p3b1-vcpkg-2024.08.23"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5ak78bzsljy4n8lnrg9rn6vycv8d3iba-vcpkg-2024.08.23",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/5ak78bzsljy4n8lnrg9rn6vycv8d3iba-vcpkg-2024.08.23"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rlwqkrjpwwq4ydam32ql66ay8sx5wpzd-vcpkg-2024.08.23",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rlwqkrjpwwq4ydam32ql66ay8sx5wpzd-vcpkg-2024.08.23"
+        }
+      }
+    }
+  }
+}
